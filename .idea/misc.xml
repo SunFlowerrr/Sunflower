@@ -9,9 +9,6 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/ApiCenter" />
   </component>
-  <component name="JUnitGeneratorProjectSettings">
-    <option name="selectedTemplateKey" value="JUnit 4" />
-  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
