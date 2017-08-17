@@ -1,10 +1,10 @@
 swagger: '2.0'
 info:
   version: '1.0-SNAPSHOT'
-  title: YiWu-Server-ApiCenter
-  description: 数据服务
+  title:
+  description:
 host: 127.0.0.1:8088
-basePath: /YiWu-Server
+basePath: /Sunflower
 schemes:
   - http
 paths:
