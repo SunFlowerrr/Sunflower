@@ -2,6 +2,8 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.sunflower.custom.oto.mapper.TestMapper">
 
-
+    <select id="getName" resultType="java.lang.String">
+        select UUID();
+    </select>
 
 </mapper>
