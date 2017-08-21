@@ -3,11 +3,11 @@ package com.sunflower.custom.oto.exception;
 /**
  * Created by LinZhongtai <linzhongtai@gengee.cn>
  */
-public class RuException extends RuntimeException {
+public class SfException extends RuntimeException {
 
     private Integer errorCode;
 
-    public RuException(Integer errorCode) {
+    public SfException(Integer errorCode) {
         this.errorCode = errorCode;
     }
 

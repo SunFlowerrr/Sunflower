@@ -21,7 +21,7 @@ import java.util.Locale;
  * Created by LinZhongtai <linzhongtai@gengee.cn>
  */
 @ControllerAdvice
-public class RuExceptionHandler {
+public class SfExceptionHandler {
 
     private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
@@ -37,10 +37,10 @@ public class RuExceptionHandler {
         return getRespModel(101001);
     }
 
-    @ExceptionHandler(RuException.class)
+    @ExceptionHandler(SfException.class)
     @ResponseStatus(HttpStatus.OK)
     @ResponseBody
-    public RespModel error(RuException e) {
+    public RespModel error(SfException e) {
         LOGGER.warn("WARN Exception:{}", e.getErrorCode());
         return getRespModel(e.getErrorCode());
     }
